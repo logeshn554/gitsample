@@ -1,0 +1,13 @@
+prefix=E:/git_demo/app/Library
+exec_prefix=E:/git_demo/app/Library
+libdir=E:/git_demo/app/Library/lib
+sharedlibdir=E:/git_demo/app/Library/lib
+includedir=E:/git_demo/app/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
