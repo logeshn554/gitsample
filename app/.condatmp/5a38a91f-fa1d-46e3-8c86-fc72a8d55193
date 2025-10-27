@@ -1,0 +1,12 @@
+prefix=e:/git_demo/app/Library
+exec_prefix=e:/git_demo/app/Library
+libdir=e:/git_demo/app/Library/lib
+includedir=e:/git_demo/app/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 

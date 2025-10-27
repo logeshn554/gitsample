@@ -1,4 +1,5 @@
 import sys
+from src.logger import logging
 def error_message_detail(error, error_detail: sys):
     _,_,exe_tb=error_detail.exc_info()
     error_message="Error occurred in python script name {} line number {} error message {}".format()
